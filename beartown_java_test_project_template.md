@@ -103,4 +103,4 @@ GiveawayAPI#getTotalReceived : 지금까지 몇번의 핫타임 보상이 주어
 ```
 
 
-
+**권한설정, API, IP중복처리**
