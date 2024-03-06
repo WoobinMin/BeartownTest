@@ -90,7 +90,7 @@ database 까지 만드는 것은 위험하므로, database 는 "giveaway" 데이
 table 명은 자율적으로 만들어 주세요.
 
 1. 핫타임을 지금까지 몇 번이나 받았는지 개인별로 기록합니다. 그리고 이 데이터는 GUI를 통해 확인하도록 합니다. -> DBConnector참고
-2. 지금까지 총 몇 명에게 핫타임 보상이 주어졌는지 기록합니다. ( 개인별x, 글로벌 ) -> DBConnector에 get,setTotalCount
+2. 지금까지 총 몇 명에게 핫타임 보상이 주어졌는지 기록합니다. ( 개인별x, 글로벌 ) -> DBConnector에 getTotalCount, increaseTotalCount
 ```
 
 
@@ -103,4 +103,4 @@ GiveawayAPI#getTotalReceived : 지금까지 몇번의 핫타임 보상이 주어
 ```
 
 
-**권한설정, API, IP중복처리**
+**API**
