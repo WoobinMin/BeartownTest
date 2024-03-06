@@ -1,0 +1,15 @@
+name: beartownTest
+version: '${version}'
+main: org.beartowntest_woonenii.beartowntest.BeartownTest
+api-version: '1.20'
+commands:
+  giveaway:
+    description: open hottime gui
+    aliases: 핫타임
+  giveawayadmin:
+    description: excute giveaway
+  takepermision:
+    description: give command permision
+  removepermision:
+    description: remove command permision
+
